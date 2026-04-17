@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Deterministic OHLCV data pipeline: Binance Futures candles to parquet + quality reports"
 requires-python = ">=3.10"
 dependencies = [
-    "ccxt>=1.91.0",
+    "ccxt>=4.5.49",
     "fastapi>=0.110.0",
     "numpy<2",
     "pandas>=1.5.0",
